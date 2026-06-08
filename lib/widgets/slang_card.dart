@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../app.dart';
 import '../models/slang_category.dart';
 import '../models/slang_entry.dart';
 import '../services/favorites_service.dart';
@@ -45,13 +46,22 @@ class SlangCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 2),
-                    Text(
-                      entry.actualMeaningCzech,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: theme.textTheme.bodyMedium?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
+                    ValueListenableBuilder<bool>(
+                      valueListenable: literalModeNotifier,
+                      builder: (context, literalMode, _) {
+                        return Text(
+                          literalMode
+                              ? entry.literalCzech
+                              : entry.actualMeaningCzech,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: theme.textTheme.bodyMedium?.copyWith(
+                            color: theme.colorScheme.onSurfaceVariant,
+                            fontStyle:
+                                literalMode ? FontStyle.italic : FontStyle.normal,
+                          ),
+                        );
+                      },
                     ),
                     const SizedBox(height: 8),
                     Container(

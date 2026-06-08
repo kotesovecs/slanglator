@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../app.dart';
 import '../models/slang_category.dart';
 import '../models/slang_entry.dart';
 import '../services/favorites_service.dart';
@@ -36,19 +37,53 @@ class DetailScreen extends StatelessWidget {
         children: [
           _Header(entry: entry, category: category),
           const SizedBox(height: 24),
-          _MeaningCard(
-            label: 'Doslovný překlad',
-            text: entry.literalCzech,
-            icon: Icons.translate,
-            color: theme.colorScheme.tertiary,
-            crossedOut: true,
-          ),
-          const SizedBox(height: 12),
-          _MeaningCard(
-            label: 'Skutečný význam',
-            text: entry.actualMeaningCzech,
-            icon: Icons.lightbulb_outline,
-            color: theme.colorScheme.primary,
+          ValueListenableBuilder<bool>(
+            valueListenable: literalModeNotifier,
+            builder: (context, literalMode, _) {
+              // The "correct" style: primary color, lightbulb, not crossed out.
+              // The "literal" style: tertiary color, translate icon, crossed out.
+              // In literal mode the doslovný překlad takes the "correct" style
+              // (and top spot) while the skutečný význam looks like the throwaway
+              // literal one.
+              final correctCard = _MeaningCard(
+                label: 'Doslovný překlad',
+                text: entry.literalCzech,
+                icon: Icons.lightbulb_outline,
+                color: theme.colorScheme.primary,
+              );
+              final literalStyledCard = _MeaningCard(
+                label: 'Skutečný význam',
+                text: entry.actualMeaningCzech,
+                icon: Icons.translate,
+                color: theme.colorScheme.tertiary,
+                crossedOut: true,
+              );
+
+              final defaultLiteralCard = _MeaningCard(
+                label: 'Doslovný překlad',
+                text: entry.literalCzech,
+                icon: Icons.translate,
+                color: theme.colorScheme.tertiary,
+                crossedOut: true,
+              );
+              final defaultActualCard = _MeaningCard(
+                label: 'Skutečný význam',
+                text: entry.actualMeaningCzech,
+                icon: Icons.lightbulb_outline,
+                color: theme.colorScheme.primary,
+              );
+
+              final cards = literalMode
+                  ? [correctCard, literalStyledCard]
+                  : [defaultLiteralCard, defaultActualCard];
+              return Column(
+                children: [
+                  cards[0],
+                  const SizedBox(height: 12),
+                  cards[1],
+                ],
+              );
+            },
           ),
           const SizedBox(height: 24),
           Text('Příklady použití', style: theme.textTheme.titleMedium),
