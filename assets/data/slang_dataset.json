@@ -10249,5 +10249,275 @@
     "category": "american_slang",
     "exampleEn": "Buck up, buddy, you got this.",
     "exampleCz": "Vzchop se, kámo, dáš to."
+  },
+  {
+    "id": 1140,
+    "english": "delulu girl",
+    "literalCzech": "holka žijící v iluzích, bláhově zamilovaná",
+    "actualMeaningCzech": "bludmila",
+    "category": "national_revival",
+    "exampleEn": "She thinks he'll text back — total delulu girl.",
+    "exampleCz": "Myslí si, že jí odepíše — úplná bludmila."
+  },
+  {
+    "id": 1141,
+    "english": "spoiler",
+    "literalCzech": "prozrazení děje předem",
+    "actualMeaningCzech": "kaziděj",
+    "category": "national_revival",
+    "exampleEn": "Stop, no spoilers about the ending!",
+    "exampleCz": "Přestaň, žádný kaziděj o konci!"
+  },
+  {
+    "id": 1142,
+    "english": "paywall",
+    "literalCzech": "obsah zpřístupněný až po zaplacení",
+    "actualMeaningCzech": "platizeď",
+    "category": "national_revival",
+    "exampleEn": "The article is behind a paywall.",
+    "exampleCz": "Ten článek je za platizdí."
+  },
+  {
+    "id": 1143,
+    "english": "fast fashion",
+    "literalCzech": "rychle vyráběná levná móda",
+    "actualMeaningCzech": "hadromor",
+    "category": "national_revival",
+    "exampleEn": "Fast fashion pollutes the planet.",
+    "exampleCz": "Hadromor ničí planetu."
+  },
+  {
+    "id": 1144,
+    "english": "lurker",
+    "literalCzech": "tichý pozorovatel, který nic nepíše",
+    "actualMeaningCzech": "příhližník",
+    "category": "national_revival",
+    "exampleEn": "Most users in the chat are just lurkers.",
+    "exampleCz": "Většina lidí v chatu jsou jen příhližníci."
+  },
+  {
+    "id": 1145,
+    "english": "meme",
+    "literalCzech": "internetový vtípek šířící se mezi lidmi",
+    "actualMeaningCzech": "nechtecht",
+    "category": "national_revival",
+    "exampleEn": "He shared a hilarious meme.",
+    "exampleCz": "Sdílel naprosto vtipný nechtecht."
+  },
+  {
+    "id": 1146,
+    "english": "people pleaser",
+    "literalCzech": "kdo se chce za každou cenu zavděčit všem",
+    "actualMeaningCzech": "libimír",
+    "category": "national_revival",
+    "exampleEn": "He can't say no — such a people pleaser.",
+    "exampleCz": "Neumí říct ne — úplný libimír."
+  },
+  {
+    "id": 1147,
+    "english": "feed",
+    "literalCzech": "proud příspěvků na sociální síti",
+    "actualMeaningCzech": "krmelec",
+    "category": "national_revival",
+    "exampleEn": "My feed is full of cat videos.",
+    "exampleCz": "Mám krmelec plný videí s kočkami."
+  },
+  {
+    "id": 1148,
+    "english": "deadass",
+    "literalCzech": "naprosto vážně, bez legrace",
+    "actualMeaningCzech": "bezprdky",
+    "category": "national_revival",
+    "exampleEn": "I'm deadass not going.",
+    "exampleCz": "Bezprdky tam nejdu."
+  },
+  {
+    "id": 1149,
+    "english": "facepalm",
+    "literalCzech": "gesto dlaní na čelo z trapnosti či zoufalství",
+    "actualMeaningCzech": "čelobác",
+    "category": "national_revival",
+    "exampleEn": "His answer made me facepalm.",
+    "exampleCz": "Z jeho odpovědi jsem udělal čelobác."
+  },
+  {
+    "id": 1150,
+    "english": "yapper",
+    "literalCzech": "kdo nepřetržitě a zbytečně mluví",
+    "actualMeaningCzech": "meloun",
+    "category": "national_revival",
+    "exampleEn": "Be quiet, you yapper!",
+    "exampleCz": "Buď zticha, ty melloune!"
+  },
+  {
+    "id": 1151,
+    "english": "lore",
+    "literalCzech": "příběhové pozadí postavy či světa",
+    "actualMeaningCzech": "pozaděj",
+    "category": "national_revival",
+    "exampleEn": "The game's lore is incredibly deep.",
+    "exampleCz": "Pozaděj té hry je neuvěřitelně bohatý."
+  },
+  {
+    "id": 1152,
+    "english": "doomscrolling",
+    "literalCzech": "nekonečné scrollování špatných zpráv",
+    "actualMeaningCzech": "zmarosvitek",
+    "category": "national_revival",
+    "exampleEn": "I spent the night doomscrolling.",
+    "exampleCz": "Celou noc jsem propadl zmarosvitku."
+  },
+  {
+    "id": 1153,
+    "english": "Netflix and chill",
+    "literalCzech": "schůzka u filmu (často eufemismus)",
+    "actualMeaningCzech": "pofelace",
+    "category": "national_revival",
+    "exampleEn": "Wanna come over for some Netflix and chill?",
+    "exampleCz": "Nechceš přijít na pofelaci?"
+  },
+  {
+    "id": 1154,
+    "english": "ragebait",
+    "literalCzech": "obsah záměrně dráždící ke vzteku",
+    "actualMeaningCzech": "vzteklá návnada",
+    "category": "national_revival",
+    "exampleEn": "Don't fall for that ragebait.",
+    "exampleCz": "Neskoč na tu vzteklou návnadu."
+  },
+  {
+    "id": 1155,
+    "english": "situationship",
+    "literalCzech": "nejasný vztah bez jasného závazku",
+    "actualMeaningCzech": "mezivztah",
+    "category": "national_revival",
+    "exampleEn": "They're not dating, it's a situationship.",
+    "exampleCz": "Nechodí spolu, je to mezivztah."
+  },
+  {
+    "id": 1156,
+    "english": "mansplaining",
+    "literalCzech": "povýšené vysvětlování (typicky muž ženě)",
+    "actualMeaningCzech": "pánaučovat",
+    "category": "national_revival",
+    "exampleEn": "Stop mansplaining my own job to me.",
+    "exampleCz": "Přestaň mi pánaučovat o mojí vlastní práci."
+  },
+  {
+    "id": 1157,
+    "english": "cringe",
+    "literalCzech": "pocit trapnosti až fyzického nepohodlí",
+    "actualMeaningCzech": "trapnobol",
+    "category": "national_revival",
+    "exampleEn": "That joke was so cringe.",
+    "exampleCz": "Ten vtip byl čirý trapnobol."
+  },
+  {
+    "id": 1158,
+    "english": "drama queen",
+    "literalCzech": "kdo ze všeho dělá velké scény",
+    "actualMeaningCzech": "dramoslava",
+    "category": "national_revival",
+    "exampleEn": "Don't be such a drama queen.",
+    "exampleCz": "Nebuď taková dramoslava."
+  },
+  {
+    "id": 1159,
+    "english": "clickbait",
+    "literalCzech": "lákavý nadpis, který nutí ke kliknutí",
+    "actualMeaningCzech": "klikolák",
+    "category": "national_revival",
+    "exampleEn": "That headline is pure clickbait.",
+    "exampleCz": "Ten titulek je čirý klikolák."
+  },
+  {
+    "id": 1160,
+    "english": "overthinker",
+    "literalCzech": "kdo o všem příliš přemýšlí",
+    "actualMeaningCzech": "Přemysl",
+    "category": "national_revival",
+    "exampleEn": "I'm such an overthinker before sleep.",
+    "exampleCz": "Před spaním jsem úplný Přemysl."
+  },
+  {
+    "id": 1161,
+    "english": "vibe coding",
+    "literalCzech": "programování podle nálady a citu, ne plánu",
+    "actualMeaningCzech": "citokódění",
+    "category": "national_revival",
+    "exampleEn": "I built the app with pure vibe coding.",
+    "exampleCz": "Tu appku jsem stvořil čistým citokóděním."
+  },
+  {
+    "id": 1162,
+    "english": "bingewatch",
+    "literalCzech": "zhlédnutí mnoha dílů seriálu naráz",
+    "actualMeaningCzech": "sledohlt",
+    "category": "national_revival",
+    "exampleEn": "We binge-watched the whole season.",
+    "exampleCz": "Dali jsme sledohlt celé série."
+  },
+  {
+    "id": 1163,
+    "english": "side hustle",
+    "literalCzech": "přivýdělek vedle hlavní práce",
+    "actualMeaningCzech": "bokofacha",
+    "category": "national_revival",
+    "exampleEn": "Her side hustle makes more than her job.",
+    "exampleCz": "Její bokofacha vydělá víc než práce."
+  },
+  {
+    "id": 1164,
+    "english": "bodycount",
+    "literalCzech": "počet sexuálních partnerů",
+    "actualMeaningCzech": "těločet",
+    "category": "national_revival",
+    "exampleEn": "He asked about her bodycount.",
+    "exampleCz": "Ptal se jí na těločet."
+  },
+  {
+    "id": 1165,
+    "english": "clanker",
+    "literalCzech": "hanlivé označení robota",
+    "actualMeaningCzech": "vrzna",
+    "category": "national_revival",
+    "exampleEn": "Get out of the way, clanker!",
+    "exampleCz": "Uhni z cesty, vrzno!"
+  },
+  {
+    "id": 1166,
+    "english": "fitcheck",
+    "literalCzech": "ukázka dnešního oblečení",
+    "actualMeaningCzech": "úborokouk",
+    "category": "national_revival",
+    "exampleEn": "Time for the morning fitcheck.",
+    "exampleCz": "Čas na ranní úborokouk."
+  },
+  {
+    "id": 1167,
+    "english": "noob",
+    "literalCzech": "nezkušený začátečník",
+    "actualMeaningCzech": "nezkušník",
+    "category": "national_revival",
+    "exampleEn": "Don't worry, everyone starts as a noob.",
+    "exampleCz": "Neboj, každý začíná jako nezkušník."
+  },
+  {
+    "id": 1168,
+    "english": "screenshot",
+    "literalCzech": "snímek obrazovky",
+    "actualMeaningCzech": "obrazolap",
+    "category": "national_revival",
+    "exampleEn": "Send me a screenshot of the error.",
+    "exampleCz": "Pošli mi obrazolap té chyby."
+  },
+  {
+    "id": 1169,
+    "english": "brainrot",
+    "literalCzech": "otupění mozku z nekonečného online obsahu",
+    "actualMeaningCzech": "mozkomor",
+    "category": "national_revival",
+    "exampleEn": "Too much short video gives you brainrot.",
+    "exampleCz": "Z přemíry krátkých videí máš mozkomor."
   }
 ]

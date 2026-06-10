@@ -30,7 +30,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _onLogoTap() {
     final now = DateTime.now();
-    if (_lastLogoTap == null || now.difference(_lastLogoTap!) > const Duration(milliseconds: 800)) {
+    if (_lastLogoTap == null ||
+        now.difference(_lastLogoTap!) > const Duration(milliseconds: 800)) {
       _logoTapCount = 0;
     }
     _lastLogoTap = now;
@@ -45,7 +46,11 @@ class _HomeScreenState extends State<HomeScreen> {
         ..showSnackBar(
           SnackBar(
             duration: const Duration(seconds: 2),
-            content: Text(literalModeNotifier.value ? 'Doslovný režim zapnut' : 'Doslovný režim vypnut'),
+            content: Text(
+              literalModeNotifier.value
+                  ? 'Doslovný režim zapnut'
+                  : 'Doslovný režim vypnut',
+            ),
           ),
         );
     }
@@ -56,7 +61,9 @@ class _HomeScreenState extends State<HomeScreen> {
     if (all.isEmpty || !mounted) return;
     final entry = all[_random.nextInt(all.length)];
     if (!mounted) return;
-    Navigator.of(context).push(MaterialPageRoute(builder: (_) => DetailScreen(entry: entry)));
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => DetailScreen(entry: entry)),
+    );
   }
 
   void _toggleTheme() {
@@ -73,10 +80,17 @@ class _HomeScreenState extends State<HomeScreen> {
         title: GestureDetector(
           behavior: HitTestBehavior.opaque,
           onTap: _onLogoTap,
-          child: Text(_titles[_index], style: const TextStyle(fontWeight: FontWeight.w800)),
+          child: Text(
+            _titles[_index],
+            style: const TextStyle(fontWeight: FontWeight.w800),
+          ),
         ),
         actions: [
-          IconButton(tooltip: 'Náhodný výraz', icon: const Icon(Icons.shuffle), onPressed: _openRandom),
+          IconButton(
+            tooltip: 'Náhodný výraz',
+            icon: const Icon(Icons.shuffle),
+            onPressed: _openRandom,
+          ),
           IconButton(
             tooltip: 'Přepnout motiv',
             icon: Icon(isDark ? Icons.light_mode : Icons.dark_mode),
@@ -85,11 +99,16 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             tooltip: 'O aplikaci',
             icon: const Icon(Icons.info_outline),
-            onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => const AboutScreen())),
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const AboutScreen()),
+            ),
           ),
         ],
       ),
-      body: IndexedStack(index: _index, children: const [BrowseScreen(), FavoritesScreen()]),
+      body: IndexedStack(
+        index: _index,
+        children: const [BrowseScreen(), FavoritesScreen()],
+      ),
       bottomNavigationBar: ListenableBuilder(
         listenable: FavoritesService.instance,
         builder: (context, _) {

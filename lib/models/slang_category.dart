@@ -17,6 +17,12 @@ class SlangCategory {
   /// Ordered list of all known categories in the dataset.
   static const List<SlangCategory> all = [
     SlangCategory(
+      key: 'national_revival',
+      label: 'Národní obrození',
+      icon: Icons.history_edu,
+      color: Color(0xFF8D6E63),
+    ),
+    SlangCategory(
       key: 'idioms',
       label: 'Idiomy',
       icon: Icons.auto_awesome,
