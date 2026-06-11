@@ -10528,5 +10528,23 @@
     "category": "national_revival",
     "exampleEn": "They sell buttplugs in that shop.",
     "exampleCz": "V tom obchodě prodávají prdelšpunty."
+  },
+  {
+    "id": 1171,
+    "english": "inbred",
+    "literalCzech": "zplozený příbuzenským křížením",
+    "actualMeaningCzech": "v chlebu",
+    "category": "national_revival",
+    "exampleEn": "The royal family was famously inbred.",
+    "exampleCz": "Královská rodina byla pověstně v chlebu."
+  },
+  {
+    "id": 1172,
+    "english": "pancake",
+    "literalCzech": "lívanec, palačinka",
+    "actualMeaningCzech": "pánevní koláč",
+    "category": "national_revival",
+    "exampleEn": "We had pancakes for breakfast.",
+    "exampleCz": "Měli jsme k snídani pánevní koláče."
   }
 ]
